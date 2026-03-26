@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-color: rgb(43, 44, 44);
+}
+
+#bandeira {
+    border: solid 2px black;
+    font-family: oswald;
+    text-align: center;
+    width: 30vw;
+    height: 30vh;
+    margin: auto;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#faixazul {
+    background-color: rgb(24, 99, 168);
+    height: calc(30vh/3);
+    width: 30vw;
+}
+
+#faixapreta {
+    background-color: black;
+    height: calc(30vh/3);
+    width: 30vw;
+}
+
+#faixabranca {
+    background-color: white;
+    height: calc(30vh/3);
+    width: 30vw;
+}
+
+#col {
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 25px;
+    margin: 3vh;
+    width: 25vw;
+    height: 5vh;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 15px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: black;
+}
+
+#all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#download {
+    margin: 10px;
+    font-size: xx-large;
+    height: min-content;
+    width: min-content;
+    border-radius: 25px;
+    background-color: white;
+    padding: 5px;
+}
