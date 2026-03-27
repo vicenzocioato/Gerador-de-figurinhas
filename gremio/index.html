@@ -14,25 +14,24 @@
 <body>
     <div id="all">
         <div id="bandeira">
-            <div id="faixazul">INSERIR</div>
-            <div id="faixabranca">O SEU</div>
-            <div id="faixapreta">TEXTO</div>
+            <div id="faixazul"></div>
+            <div id="faixabranca"></div>
+            <div id="faixapreta"></div>
         </div>
-        <div id="download"><i class="fa-solid fa-download"></i></div>
+        <button id="download"><i class="fa-solid fa-download"></i></button>
 
         <form action="#" method="get">
 
             <div id="col">
-                <input type="text" placeholder="Texto de cima">
-                <input type="text" placeholder="Texto do meio">
-                <input type="text" placeholder="Texto de baixo">
+                <input type="text" id="textocima" placeholder="Texto de cima" maxlength="14">
+                <input type="text" placeholder="Texto do meio" id="textomeio" maxlength="14">
+                <input type="text" placeholder="Texto de baixo" id="textobaixo" maxlength="14">
             </div>
-
-            <button type='submit'>Gerar trapo</button>
         </form>
 
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </body>
 
 </html>
