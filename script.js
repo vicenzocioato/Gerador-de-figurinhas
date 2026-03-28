@@ -27,3 +27,10 @@ botao.addEventListener("click", () => {
     link.click();
   });
 });
+
+const number = document.getElementById("number")
+const bandeira = document.getElementById("bandeira")
+
+number.addEventListener('input', () =>{
+  bandeira.style.fontSize = number.value+"pt"
+})
